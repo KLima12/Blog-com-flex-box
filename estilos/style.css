@@ -1,0 +1,80 @@
+/* Importando a Font para o desafio */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+
+:root {
+  --cor-menu: #edf9ff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+html, body { 
+  margin: 0;
+  padding: 0;
+  background-color: var(--cor-menu);
+}
+
+header > h1 { 
+  text-align: center;
+}
+
+main { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.itens { 
+  width: 270px;
+  height: 320px;
+  background: linear-gradient(to bottom, #327AFF, #05D1F5 );
+  color: white;
+  border-radius: 5px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+img { 
+  width: 270px;
+  border-radius: 5px;
+
+}
+
+p.titulo,p.lorem { 
+  margin-top:5px;
+  margin-left: 15px;
+  display: flex;
+  align-self: flex-start;
+}
+
+/*p.lorem { 
+  margin-left: 15px ;
+}*/
+
+div.informacoes { 
+  text-align: center;
+  width: 220px;
+  height: 34px;
+  border: 1px solid #05D1F5;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/*footer > h1 { 
+  text-align: center;
+  padding: 10px;
+}*/
+
+footer { 
+  padding: 20px;
+}

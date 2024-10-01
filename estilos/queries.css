@@ -1,0 +1,28 @@
+@media screen and (min-width:744px) and (max-width:834px) { 
+   /* body { 
+        background-color: red;
+    }*/
+
+    main { 
+        flex-flow: row wrap;
+        justify-content: center;
+        
+    }
+
+    div.itens { 
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-width:834px) {
+    main { 
+        flex-flow: row wrap;
+        /*justify-content: space-between;*/
+        
+    }
+
+    div.itens { 
+        margin-left: 25px;
+        flex: 1 0 30%; 
+    }
+}
